@@ -3,37 +3,37 @@ export default function Projects() {
     {
       title: "Air Canvas Using YOLO Object Detection",
       description: "Developed an air canvas application using YOLOv5s and OpenCV for real-time hand tracking, gesture recognition, and virtual drawing with customizable brush features.",
-      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=400",
+      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=400",
       technologies: ["YOLOv5", "OpenCV", "Python", "Computer Vision"]
     },
     {
       title: "Restaurant Management System",
       description: "Built a full-stack web application using Django and PostgreSQL for user registration, table reservations, and management with a responsive interface.",
-      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=400",
+      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=400",
       technologies: ["Django", "PostgreSQL", "HTML/CSS", "Full-Stack"]
     },
     {
       title: "Face Generation with GANs",
       description: "Implemented advanced training techniques, including transfer learning and fine-tuning, on GANs for facial generation, reducing training time by 40%.",
-      image: "https://images.unsplash.com/photo-1655720828018-edd2daec9349?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=400",
+      image: "https://images.unsplash.com/photo-1547036967-23d11aacaee0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=400",
       technologies: ["GANs", "Deep Learning", "Transfer Learning", "PyTorch"]
     },
     {
       title: "Handwritten Digit Classifier",
       description: "Developed a neural network in PyTorch for MNIST digit classification achieving 96.81% accuracy with Adam optimizer and GPU acceleration.",
-      image: "https://images.unsplash.com/photo-1509228468518-180dd4864904?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=400",
+      image: "https://images.unsplash.com/photo-1635070041278-e5f7e50fbbe8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=400",
       technologies: ["PyTorch", "Neural Networks", "CUDA", "96.81% Accuracy"]
     },
     {
       title: "Landmark Classification and Tagging",
       description: "Implemented CNN with transfer learning for landmark image classification, achieving 74% accuracy through advanced preprocessing and optimization.",
-      image: "https://images.unsplash.com/photo-1539650116574-75c0c6d73c0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=400",
+      image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=400",
       technologies: ["CNN", "Transfer Learning", "Image Classification", "74% Accuracy"]
     },
     {
       title: "Text Translation & Sentiment Analysis",
       description: "Built a multi-lingual tool using MarianMT for translation and BERT-based models for sentiment analysis of French and Spanish movie reviews.",
-      image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=400",
+      image: "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=400",
       technologies: ["NLP", "BERT", "MarianMT", "Transformers"]
     }
   ];
