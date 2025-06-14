@@ -21,7 +21,7 @@ export default function Projects() {
     {
       title: "Handwritten Digit Classifier",
       description: "Developed a neural network in PyTorch for MNIST digit classification achieving 96.81% accuracy with Adam optimizer and GPU acceleration.",
-      image: "https://images.unsplash.com/photo-1635070041278-e5f7e50fbbe8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=400",
+      image: "https://images.unsplash.com/photo-1509228468518-180dd4864904?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=400",
       technologies: ["PyTorch", "Neural Networks", "CUDA", "96.81% Accuracy"]
     },
     {
