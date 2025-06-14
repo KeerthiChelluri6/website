@@ -18,9 +18,14 @@ export default function Publications() {
                 </p>
                 <div className="flex items-center justify-between">
                   <span className="text-sm text-gray-500">Published: June 2023</span>
-                  <button className="bg-primary text-white px-4 py-2 rounded-lg font-medium hover:bg-secondary transition-colors">
+                  <a 
+                    href="https://www.ijnrd.org/viewpaperforall?paper=IJNRD2306222"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-primary text-white px-4 py-2 rounded-lg font-medium hover:bg-secondary transition-colors"
+                  >
                     View Publication <i className="fas fa-external-link-alt ml-2"></i>
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
