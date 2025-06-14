@@ -64,9 +64,9 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
-                <a href="#" className="text-primary font-semibold hover:text-secondary transition-colors">
+                <button className="text-primary font-semibold hover:text-secondary transition-colors">
                   View Project <i className="fas fa-arrow-right ml-1"></i>
-                </a>
+                </button>
               </div>
             </div>
           ))}

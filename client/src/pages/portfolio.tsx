@@ -15,9 +15,10 @@ export default function Portfolio() {
     // Smooth scrolling for navigation links
     const handleClick = (e: Event) => {
       const target = e.target as HTMLAnchorElement;
-      if (target.getAttribute('href')?.startsWith('#')) {
+      const href = target.getAttribute('href');
+      if (href && href.startsWith('#') && href.length > 1) {
         e.preventDefault();
-        const element = document.querySelector(target.getAttribute('href')!);
+        const element = document.querySelector(href);
         if (element) {
           element.scrollIntoView({
             behavior: 'smooth',

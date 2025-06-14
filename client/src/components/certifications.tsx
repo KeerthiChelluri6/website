@@ -53,9 +53,9 @@ export default function Certifications() {
                 <i className="fas fa-certificate text-3xl text-primary mb-4"></i>
                 <h3 className="font-semibold text-gray-900 mb-2">{cert.title}</h3>
                 <p className="text-sm text-gray-600 mb-4">{cert.issuer}</p>
-                <a href="#" className="text-primary font-medium hover:text-secondary transition-colors text-sm">
+                <button className="text-primary font-medium hover:text-secondary transition-colors text-sm">
                   View Certificate <i className="fas fa-external-link-alt ml-1"></i>
-                </a>
+                </button>
               </div>
             </div>
           ))}

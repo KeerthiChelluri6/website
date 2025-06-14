@@ -18,9 +18,9 @@ export default function Publications() {
                 </p>
                 <div className="flex items-center justify-between">
                   <span className="text-sm text-gray-500">Published: June 2023</span>
-                  <a href="#" className="bg-primary text-white px-4 py-2 rounded-lg font-medium hover:bg-secondary transition-colors">
+                  <button className="bg-primary text-white px-4 py-2 rounded-lg font-medium hover:bg-secondary transition-colors">
                     View Publication <i className="fas fa-external-link-alt ml-2"></i>
-                  </a>
+                  </button>
                 </div>
               </div>
             </div>
