@@ -2,25 +2,34 @@ interface Certification {
   title: string;
   issuer: string;
   credentialUrl?: string;
+  credentialId?: string;
 }
 
 export default function Certifications() {
   const certifications: Certification[] = [
     {
       title: "NVIDIA DLI - Rapid Application Development with LLMs",
-      issuer: "NVIDIA Deep Learning Institute"
+      issuer: "NVIDIA Deep Learning Institute",
+      credentialUrl: "https://learn.nvidia.com/certificates?id=PgmSSBh7Sg2U72LSvZhTxg",
+      credentialId: "PgmSSBh7Sg2U72LSvZhTxg"
     },
     {
       title: "NVIDIA DLI - Getting Started with Deep Learning",
-      issuer: "NVIDIA Deep Learning Institute"
+      issuer: "NVIDIA Deep Learning Institute",
+      credentialUrl: "https://courses.nvidia.com/certificates/f012c14279e04218b5ce44ed3eab85fb",
+      credentialId: "f012c14279e04218b5ce44ed3eab85fb"
     },
     {
       title: "NVIDIA DLI - Introduction to Transformer-Based NLP",
-      issuer: "NVIDIA Deep Learning Institute"
+      issuer: "NVIDIA Deep Learning Institute",
+      credentialUrl: "https://courses.nvidia.com/certificates/2e3f7b43090a4f8ebc5348f9c6fd9723/",
+      credentialId: "2e3f7b43090a4f8ebc5348f9c6fd9723"
     },
     {
       title: "Deep Learning Nanodegree",
-      issuer: "Udacity"
+      issuer: "Udacity",
+      credentialUrl: "https://confirm.udacity.com/e/ade211e0-65f5-11ee-8f4a-03489a63bfc5",
+      credentialId: "ade211e0-65f5-11ee-8f4a-03489a63bfc5"
     },
     {
       title: "LLMOps: Building Real-World Applications with LLMs",
@@ -45,7 +54,8 @@ export default function Certifications() {
     {
       title: "Kubernetes for the Absolute Beginners",
       issuer: "Udemy",
-      credentialUrl: "https://www.udemy.com/certificate/UC-73cfa3c1-f483-4dea-a5ce-19bb7ed12fc0/"
+      credentialUrl: "https://www.udemy.com/certificate/UC-73cfa3c1-f483-4dea-a5ce-19bb7ed12fc0/",
+      credentialId: "UC-73cfa3c1-f483-4dea-a5ce-19bb7ed12fc0"
     }
   ];
 
