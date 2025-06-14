@@ -1,5 +1,11 @@
+interface Certification {
+  title: string;
+  issuer: string;
+  credentialUrl?: string;
+}
+
 export default function Certifications() {
-  const certifications = [
+  const certifications: Certification[] = [
     {
       title: "NVIDIA DLI - Rapid Application Development with LLMs",
       issuer: "NVIDIA Deep Learning Institute"
@@ -35,6 +41,11 @@ export default function Certifications() {
     {
       title: "Robotic Process Automation",
       issuer: "UiPath"
+    },
+    {
+      title: "Kubernetes for the Absolute Beginners",
+      issuer: "Udemy",
+      credentialUrl: "https://www.udemy.com/certificate/UC-73cfa3c1-f483-4dea-a5ce-19bb7ed12fc0/"
     }
   ];
 
@@ -53,9 +64,20 @@ export default function Certifications() {
                 <i className="fas fa-certificate text-3xl text-primary mb-4"></i>
                 <h3 className="font-semibold text-gray-900 mb-2">{cert.title}</h3>
                 <p className="text-sm text-gray-600 mb-4">{cert.issuer}</p>
-                <button className="text-primary font-medium hover:text-secondary transition-colors text-sm">
-                  View Certificate <i className="fas fa-external-link-alt ml-1"></i>
-                </button>
+                {cert.credentialUrl ? (
+                  <a 
+                    href={cert.credentialUrl} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-primary font-medium hover:text-secondary transition-colors text-sm"
+                  >
+                    View Certificate <i className="fas fa-external-link-alt ml-1"></i>
+                  </a>
+                ) : (
+                  <button className="text-primary font-medium hover:text-secondary transition-colors text-sm">
+                    View Certificate <i className="fas fa-external-link-alt ml-1"></i>
+                  </button>
+                )}
               </div>
             </div>
           ))}
