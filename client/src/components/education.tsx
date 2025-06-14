@@ -17,7 +17,7 @@ export default function Education() {
               </div>
               <div>
                 <span className="bg-primary text-white px-4 py-2 rounded-full text-sm font-medium">Aug 2023 - May 2025</span>
-                <p className="text-gray-600 mt-2 text-center">GPA: 3.5/4.0</p>
+                <p className="text-gray-600 mt-2 text-center">GPA: 3.3/4.0</p>
               </div>
             </div>
             <p className="text-gray-600 mb-4">

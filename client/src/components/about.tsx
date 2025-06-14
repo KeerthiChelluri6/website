@@ -9,8 +9,8 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              I'm a passionate AI Engineer currently pursuing my Master's in Software Engineering at George Mason University 
-              (GPA: 3.5/4.0), expected to graduate in May 2025. With a strong foundation in Computer Science and hands-on 
+              I'm a passionate AI Engineer who recently completed my Master's in Software Engineering at George Mason University 
+              (GPA: 3.3/4.0) in May 2025. With a strong foundation in Computer Science and 5 months of hands-on 
               experience in AI/ML solutions, I specialize in developing intelligent applications that solve complex problems.
             </p>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
