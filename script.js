@@ -107,14 +107,14 @@ document.addEventListener('DOMContentLoaded', function() {
     // Typing effect for hero title
     const heroTitle = document.querySelector('.hero-section h1');
     if (heroTitle) {
-        const titleText = heroTitle.innerHTML;
-        heroTitle.innerHTML = '';
+        const titleText = heroTitle.textContent;
+        heroTitle.textContent = '';
         heroTitle.style.borderRight = '2px solid #3b82f6';
         
         let i = 0;
         function typeWriter() {
             if (i < titleText.length) {
-                heroTitle.innerHTML += titleText.charAt(i);
+                heroTitle.textContent += titleText.charAt(i);
                 i++;
                 setTimeout(typeWriter, 50);
             } else {
